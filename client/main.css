@@ -1,7 +1,12 @@
 body {
   padding: 10px;
   font-family: sans-serif;
+  background-color: #2F3030;
 }
+
+/*.container {
+  color: #CBD1CF;
+}*/
 
 .jumbotron {
   padding-top: 3rem;
@@ -26,6 +31,99 @@ body {
 
 .jumbotron .container {
   max-width: 40rem;
+}
+
+
+.input-group {
+  margin-bottom: 2em;
+}
+
+  .mgZero .input-group{
+    margin-bottom: 0em;
+  }
+
+.imgSize{
+  width: 100%;
+}
+
+.downvote{
+  display: inline-block;
+}
+
+.upvote{
+  display: inline-block;
+}
+
+.title {
+  font-size: 1.9rem;
+}
+
+/*.up-down{
+  margin-top: 1em;
+}*/
+
+.thumbs-down{
+  font-size: 1em;
+}
+
+.thumbs-up{
+  font-size: 1em;
+}
+
+.zmdi-thumb-up:before{
+  margin-right: 0.3em;
+}
+
+.zmdi-thumb-down:before{
+  margin-right: 0.3em;
+}
+
+/*.js-img{
+  transition: opacity 1s ease-in-out;
+}
+
+  .js-img:hover{
+    opacity: 0.5;
+  }*/
+
+.displayIn{
+  display: inline-block;
+}
+
+.addBookBtn{
+  margin: 1em 0 1em 0;
+}
+
+/*.js-edit{
+  transition: transform 1s ease-in-out;
+}
+
+  .js-edit:hover{
+    transform: scale(1.5);
+  }
+
+.js-delete{
+  transition: transform 1s ease-in-out;
+}
+
+  .js-delete:hover{
+    transform: scale(1.5);
+  }
+
+#upvote{
+  margin-right: 1rem;
+}
+
+#desc{
+  margin-bottom: 2.5rem;
+}
+
+#title{
+  margin-bottom: 2rem;
+}*/
+
+#img{
+  width: 100%;
 }
 
 footer {
